@@ -30,7 +30,8 @@ margin: 0px;
     padding: 15% 15%;
     color: white;
 }
-h1{
+.heading-section h1
+{
     font-size: 55px;
     font-family: sans-serif;
 }
@@ -48,10 +49,11 @@ width: auto;
 text-align: center;
 
 }
-p{
+
+.heading-section p{
     font-family: sans-serif;
     line-height: 25px;
-    color: black;
+    color: white;
 }
 @media only screen and (max-width: 600px)
  {
