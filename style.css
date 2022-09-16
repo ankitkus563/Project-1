@@ -1,0 +1,68 @@
+body
+{
+
+    background: url(https://assets.website-files.com/61e57244c283e5456130c457/61e5b01707b14538b566ef9e_bg_hero.svg);
+margin: 0px;
+}
+.nav
+{
+    display: flex;
+    padding: 40px;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.links a
+{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.image img{
+    border:0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.heading-section
+{ 
+    padding: 15% 15%;
+    color: white;
+}
+h1{
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.heading-section img
+{
+    float: right;
+    height: 300px;
+}
+.footr
+{
+    padding: 1% 15%;
+    color: white;
+width: auto;
+text-align: center;
+
+}
+p{
+    font-family: sans-serif;
+    line-height: 25px;
+    color: black;
+}
+@media only screen and (max-width: 600px)
+ {
+
+    
+.nav
+{
+    
+    display: flex;
+    padding: 35px;
+    flex-direction: column-reverse;
+}
+
+  }
